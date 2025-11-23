@@ -1,0 +1,2 @@
+rc Base64Converter.rc
+cl /EHsc /O2 /MD /W3 /DNDEBUG /D_WINDOWS Base64Converter.cpp main.cpp /link /SUBSYSTEM:WINDOWS /OPT:REF Base64Converter.res user32.lib kernel32.lib gdi32.lib comctl32.lib shell32.lib crypt32.lib comdlg32.lib
